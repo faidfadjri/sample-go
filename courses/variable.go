@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// Strings
+	// String
 	var firstName string = "Mohamad"
 	var lastName string = "Fadjri"
 	var middleName string
