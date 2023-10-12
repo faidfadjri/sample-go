@@ -6,7 +6,8 @@ package main
 import "fmt"
 
 func main() {
-	// ... resizeable capacity
+	// ... uknown capacity
+	// Membuat slice dari array
 	var months = [...]string {
 		"January",
 		"February",
@@ -39,4 +40,14 @@ func main() {
 	slice3[1] = "Bukan December";
 	fmt.Println(slice2)
 	fmt.Println(slice3)
+
+	// Membuat slice dari awal
+
+	// 2 adalah length slice,, 5 capacity / value
+	newSlice := make([]string, 2, 5)
+	newSlice[0] = "Faid"
+	newSlice[1] = "Fadjri"
+	fmt.Println(newSlice)
+	fmt.Println(len(newSlice))
+	fmt.Println(cap(newSlice))
 }
