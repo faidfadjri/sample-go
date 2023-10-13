@@ -4,7 +4,7 @@ import "fmt"
 
 
 
-func main() {
+func tryIfElseCondition() {
 	name := "Faid"
 
 	if name == "Faid" {
