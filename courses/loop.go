@@ -27,10 +27,23 @@ func main(){
 
 	// For range = perulangan sejumlah array (e.g foreach di PHP)
 
-	fmt.Println("------------ FOR RANGE -------------------")
-	slice := []string{"Mohamad", "Faid", "Fadjri"}
+	fmt.Println("------------ FOR LEN -------------------")
+	names := []string{"Mohamad", "Faid", "Fadjri"}
 	
-	for i := 0; i < len(slice); i++ {
-		fmt.Println(slice[i])
+	for i := 0; i < len(names); i++ {
+		fmt.Println(names[i])
+	}
+
+	fmt.Println("------------ FOR RANGE -------------------")
+	for index, name := range names {
+		if index % 2 == 0 {
+			// Menghentikan perulangan
+			// break
+
+			// Next perulangan
+			// continue
+		}
+
+		fmt.Println("index", index, "=", name)
 	}
 }
