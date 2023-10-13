@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Alias() {
 	// Type declaration adalah kita buat "Alias" atau nama lain sebagai tipe data
 	type isMarried bool
 

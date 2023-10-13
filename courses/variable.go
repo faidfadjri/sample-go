@@ -1,8 +1,6 @@
-package main
+package variable
 
 import "fmt"
-
-
 
 /*
 
@@ -18,7 +16,7 @@ var float32Var float32 = 3.14 // Ini adalah deklarasi tipe data float32.
 var float64Var float64 = 3.141592653589793 // Ini adalah deklarasi tipe data float64.
 */
 
-func main() {
+func variable() {
 
 	// String
 	var firstName string = "Mohamad"

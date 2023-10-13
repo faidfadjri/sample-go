@@ -5,7 +5,7 @@ package main
 
 import "fmt"
 
-func main() {
+func slice() {
 	// ... uknown capacity
 	// Membuat slice dari array
 	var months = [...]string {
