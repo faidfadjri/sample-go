@@ -2,15 +2,15 @@
 
 ## Basic Knowledge
 
-
 #### Variable
-key for saving value. to define a variable in go lang we can using few different ways : 
+
+key for saving value. to define a variable in go lang we can using few different ways :
 
 - var variable type = value
 - var lastName string = "Fadjri"
 - variableName := 40
 
-# Data Type Declarations
+### Data Type Declarations
 
 This document provides declarations of various data types and their respective value ranges in the Go programming language.
 
@@ -26,9 +26,11 @@ This document provides declarations of various data types and their respective v
 These declarations are provided to understand the data types and their respective value ranges in the Go programming language.
 
 ### Type Declaration
+
 type declaration is like we create an "Alias" for variable we wanted it.
+
 - type isMarried bool
 
-	var marriedStatus isMarried = false
+  var marriedStatus isMarried = false
 
 we create an Alias isMarried with data type boolean.
