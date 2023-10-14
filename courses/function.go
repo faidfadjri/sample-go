@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 
-func main(){
+func tryFunction(){
 	first, middle, last := getCompleteName("Mohamad", "Faid", "Fadjri")
 	fmt.Println(first, " ", middle, " ", last)
 
@@ -21,11 +21,16 @@ func main(){
 	// Function Value
 	// Membuat semacam object / instance bukan dari class tapi dari function
 
+	fmt.Println("----- FUNCTION VALUE ------")
+
 	sumAllFunction := sumAll
 	fmt.Println(sumAllFunction(10,30,40))
 
 	// Function as parameter
 	sayHello("Anjing",spamFilter)
+
+
+	
 }
 
 func getCompleteName(firstName, middleName, lastName string) (string, string, string) {
