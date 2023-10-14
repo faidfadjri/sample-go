@@ -7,7 +7,7 @@ import "fmt"
 type Blacklist func(string) bool
 
 
-func main() {
+func AnonymousFunction() {
 	// Anonymous Function
 	// Membuat function yang di save ke variable
 	fmt.Println("----- ANONYMOUS FUNCTION ------")
