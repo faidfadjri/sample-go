@@ -6,7 +6,7 @@ import "fmt"
 // Kemampuan sebuah function berinteraksi dengan data data di sekitarnya dalam scope yang sama
 
 
-func main(){
+func Closure(){
 	counter := 0
 	increment := func() {
 		fmt.Println("Increment")

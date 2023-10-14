@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 
-func tryFunction(){
+func FirstFunction(){
 	first, middle, last := getCompleteName("Mohamad", "Faid", "Fadjri")
 	fmt.Println(first, " ", middle, " ", last)
 
