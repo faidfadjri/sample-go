@@ -12,7 +12,7 @@ is made by go and managed by Go Scheduler.
 
 Parallelism involves running two tasks at the same time. For example, when you and your friend are both eating your food simultaneously, that's parallelism.
 
-Concurrency, on the other hand, doesn't necessarily mean running tasks alternately. It means that two tasks are being executed independently, but not necessarily simultaneously. IFor example, when you eat your food and occasionally talk with your friend, it's concurrent. However, you can't eat and talk at the exact same moment, or, as you humorously pointed out, you might end up throwing food in your friend's face.
+Concurrency, on the other hand, doesn't necessarily mean running tasks alternately. It means that two tasks are being executed independently, but not necessarily simultaneously. For example, when you eat your food and occasionally talk with your friend, it's concurrent. However, you can't eat and talk at the exact same moment, or, as you humorously pointed out, you might end up throwing food in your friend's face.
 
 #### Key Point
 
